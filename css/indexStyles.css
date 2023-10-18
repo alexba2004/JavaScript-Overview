@@ -1,0 +1,79 @@
+/* Programa desarrollado por Jose Alejandro Briones Arroyo */
+
+/* Configuración global */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Establece 1rem como 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Estilos del cuerpo de la página */
+body {
+    font-size: 1.6rem; /* 16px */
+    font-family: "Raleway", sans-serif;
+    background-color: cadetblue;
+}
+
+/* Encabezado */
+header {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+header h1 {
+    color: aqua;
+    font-size: 6rem;
+}
+
+header p {
+    color: aliceblue;
+    font-size: 3.2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Elementos con clase "DOM" */
+.DOM {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.DOM h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.DOM nav a {
+    color: aquamarine;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.DOM p {
+    color: azure;
+    font-size: 20px;
+}
+
+/* Formulario dentro de elementos con clase "DOM" */
+.DOM #formulario {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Botón de envío dentro del formulario */
+.DOM #formulario input[type="submit"] {
+    background-color: antiquewhite;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: blueviolet;
+}

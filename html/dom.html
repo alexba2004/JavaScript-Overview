@@ -1,0 +1,71 @@
+<!-- Programa desarrollado por Jose Alejandro Briones Arroyo -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Declaración del tipo de documento HTML -->
+        <meta charset="UTF-8" />
+        <!-- Definición de la codificación de caracteres -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Configuración de la compatibilidad con Internet Explorer -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Configuración de la vista y escala inicial -->
+        <title>Fundamentos de JS - 220013</title>
+        <!-- Título de la página en la barra de título del navegador -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <!-- Establecimiento de una conexión previa al servidor de fuentes -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!-- Conexión previa a otro servidor de fuentes con configuración de seguridad -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+        <!-- Enlace a una fuente de Google Fonts -->
+        <link rel="stylesheet" href="/css/domStyles.css" />
+        <!-- Enlace a una hoja de estilos CSS local -->
+    </head>
+    <body>
+        <header>
+            <h1 id="elemento1">Fundamentos de JavaScript - DOM</h1>
+            <!-- Título principal de la página -->
+            <p class="patito">
+                Creado por: &lt; Jose Alejandro Briones Arroyo &gt;
+                <!-- Información del autor -->
+                <a href="https://github.com/alexba2004">GitHub</a>
+                <!-- Enlace al perfil de GitHub del autor -->
+            </p>
+        </header>
+
+        <div class="DOM">
+            <h2 class="heading" id="heading">Probando el DOM</h2>
+            <!-- Título de la sección -->
+            <nav class="navegacion">
+                <!-- Navegación -->
+                <a href="#">Enlace 1</a>
+                <a href="#">Enlace 2</a>
+                <a href="#" id="elemento1">Enlace 3</a>
+                <!-- Enlace 3 con un ID -->
+                <a href="#">Enlace 4</a>
+            </nav>
+
+            <div class="tecnologias" id="tecnologias">
+                <!-- Sección de tecnologías -->
+                <p id="JavaScript" class="JavaScript">JavaScript</p>
+                <!-- Etiqueta de JavaScript -->
+                <p id="React" class="React">React.js</p>
+                <!-- Etiqueta de React.js -->
+                <p id="Node" class="Node">Node.js</p>
+                <!-- Etiqueta de Node.js -->
+            </div>
+
+            <form id="formulario" class="patito">
+                <!-- Formulario de inicio de sesión -->
+                <input type="text" placeholder="Tu Nombre" id="nombre" class="nombre" value="" />
+                <!-- Campo de nombre -->
+                <input type="password" placeholder="Tu Password" id="password" class="password" />
+                <!-- Campo de contraseña -->
+                <input type="submit" value="Login" id="botonLogin" action="/index" />
+                <!-- Botón de inicio de sesión -->
+            </form>
+        </div>
+
+        <script type="module" src="/js/18.js"></script>
+        <!-- Enlace al archivo JavaScript -->
+    </body>
+</html>
