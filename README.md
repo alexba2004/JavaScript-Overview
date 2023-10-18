@@ -1,4 +1,4 @@
-# JavaScript Overview
+# JavaScript-Overview
 
 Welcome to the JavaScript Overview repository. This resource aims to deliver a concise and comprehensive overview of JavaScript, spanning from fundamental concepts to intermediate topics. It serves as a valuable reference for individuals seeking to refresh their understanding of the JavaScript programming language.
 
